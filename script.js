@@ -12,15 +12,15 @@ btn_toggle.onclick = () => {
   document.getElementById("toggle").click();
 }
 function search(){
-  var str = "";
-  var n=str.length.search(value)
+  var value = "";
+  var n=value.length.search(value)
   n.setAttribute("type","color");
   document.body.appendChild(n);
  
 }
 function reset(){
-  var str="";
-  var n=str.length.reset(value)
+  var value="";
+  var n=value.length.reset(value)
   n.setAttribute("type","reset");
   document.body.appendChild(n);
 }
